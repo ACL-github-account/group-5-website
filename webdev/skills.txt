@@ -1,0 +1,20 @@
+Skills required for a web dev role:
+
+Front end:
+-A vast understanding on HTML, CSS and Javascript understanding and fluency.
+-Able to use one of the main three javascript libraries (eg: Angular, React, Vue).
+-Some backend knowledge to know how to interact with a backend (eg: makeing AJAX or other requests).
+
+Back end:
+-knowledge on a backend language and or framework (eg: nodeJS, PHP, ASP.net).
+-Networking Knowledge to setup server hardware and or farms aswell as to write a backend that utilises them.
+-Some Frontend knowledge to know how to interact with it (eg: makeing sure everything actualy works when its sent to the client)
+-Know how to use database formats and how to interact with them(eg: mongoDB, SQL).
+-Transfer protocols (eg: HTTP, FTP).
+
+General:
+-Knowledge on how programing languages typicaly work (eg: If statements, Functions, Variable types, ect).
+-How to use version control software (eg: GIT, CVS).
+-Communication
+
+

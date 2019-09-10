@@ -1,3 +1,4 @@
+/*General Styleing*/
 * {
 	font-family: Arial;
 }
@@ -5,6 +6,7 @@
 body {
 	background-color: #500075;
 }
+/*Navbar styleing*/
 #navbar {
 	position: fixed;
 	background-color: #151515;
@@ -22,20 +24,43 @@ body {
 	float: right;
 	color: #FFFFFF;
 }
-#sidebar {
-	position: fixed;
-	background-color: #000000;
-	width: 25vw;
-	height: 100vh;
-	margin-left: -24%;
-}
-#sidebar:hover {
-	margin-left: -1%;
-}
+/*main styleing*/
 #main {
 	width: 70vw;
 	height: 100vh;
 	margin-right: 10vw;
-	background-color: #995099;
+	margin-top: 15vh;
+	margin-bottom: 20%;
+	background-color: #FFFFFF;
+	box-shadow: 7px 7px;
 	float:right;
+}
+/*Sidebar styleing*/
+#sidebar {
+	position: fixed;
+	background-color: #000000;
+	width: 15vw;
+	height: 100vh;
+	margin-left: -14%;
+} #sidebar:hover {
+	margin-left: -1%;
+}
+/*Sidebar child styleing*/
+#sidebar > .container{
+	margin-top: 18vh;
+}
+#sidebar > .container > * {
+	color: white;
+	text-align: center;
+	list-style-type: none;
+}
+#sidebar > .container > ul > li {
+	font-size: 25px;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border-bottom-style: solid;
+	border-color: white;
+	margin-right: 13%;
+} #sidebar > .container > ul > li:hover {
+	background: rgba(175, 175, 175, 0.3)
 }
